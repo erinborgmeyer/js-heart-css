@@ -10,28 +10,28 @@ var $li = $('li:last-child');
 var $dl = $('dl');
 var $dt = $('dt');
 
-$header.addClass('masthead');
+$('header').addClass('masthead');
 
-$h1.removeClass('big-heading');
+$('h1').removeClass('big-heading');
 
-$h1.addClass('logo');
+$('h1').addClass('logo');
 
-$main.addClass('wrapper');
+$('main').addClass('wrapper');
 
-$p.addClass('intro');
+$('p').addClass('intro');
 
-$h2.addClass('slug-head');
+$('h2').addClass('slug-head');
 
-$list.addClass('slug-list');
+$('main ul').addClass('slug-list');
 
-$main.addClass('slug-img');
+$('main').addClass('slug-img');
 
-$liFirst.addClass('slug-list-first');
+$('li:first-child').addClass('slug-list-first');
 
-$li.addClass('slug-list-last');
+$('li').addClass('slug-list-last');
 
-$dl.addClass('classification');
+$('dl').addClass('classification');
 
-$dt.removeClass('big-label');
+$('dt').removeClass('big-label');
 
-$li.show();
+$('li').show();
